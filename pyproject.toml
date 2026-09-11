@@ -1,0 +1,14 @@
+[project]
+name = "csu-global-csc-500"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+module1 = "modules.module1.arithmetic:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
