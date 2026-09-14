@@ -63,17 +63,17 @@ def main():
     """
     logger.info("Welcome to Module 1")
     try:
-        a = get_input("First number: ")
-        b = get_input("Second number: ")
+        num1 = get_input("Please input num1: ")
+        num2 = get_input("Please input num2: ")
     except ValueError:
         return
     # get input
     # calculate numbers
-    logger.info("%g + %g = %g", a, b, add(a, b))
-    logger.info("%g - %g = %g", a, b, subtract(a, b))
-    logger.info("%g * %g = %g", a, b, multiply(a, b))
+    logger.info("%g + %g = %g", num1, num2, add(num1, num2))
+    logger.info("%g - %g = %g", num1, num2, subtract(num1, num2))
+    logger.info("%g * %g = %g", num1, num2, multiply(num1, num2))
     try:
-        logger.info("%g / %g = %g", a, b, divide(a, b))
+        logger.info("%g / %g = %g", num1, num2, divide(num1, num2))
     except ValueError as ve:
         logger.warning(ve.args[0])
         return
