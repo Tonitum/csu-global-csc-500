@@ -1,5 +1,12 @@
-module%:
-	cd modules/module1/
-	pandoc -f markdown -t docx -o module1.docx README.md
-	ls | grep *.docx
+module%.docx: modules/module%/report.md
+	pandoc --from=markdown --to=docx --output="$@" "$<"
 
+.PRECIOUS: module%.docx
+
+module%: module%.docx
+	@:
+
+.PHONY: clean
+
+clean:
+	find . -name "module*.docx" -delete
