@@ -18,7 +18,7 @@ def subtract(a: float, b: float) -> float:
 def divide(a: float, b: float) -> float:
     """
     Returns result of a / b
-    if b is negative, raises ValueError
+    if b is 0, raises ValueError
     """
     if b == 0:
         raise ValueError("Cannot divide: Second number cannot be 0")
