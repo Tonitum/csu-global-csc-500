@@ -2,3 +2,4 @@
 *.docx
 */.venv
 *.venv
+modules/*/requirements.md
