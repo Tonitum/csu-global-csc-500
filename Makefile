@@ -1,5 +1,5 @@
 module%.docx: modules/module%/report.md
-	pandoc --from=markdown --to=docx --output="$@" "$<"
+	pandoc --from=markdown --to=docx --reference-doc=reference.docx --output="$@" "$<"
 
 .PRECIOUS: module%.docx
 

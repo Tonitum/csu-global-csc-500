@@ -16,21 +16,21 @@
 
 ### Nominal Run
 
-![run 1](./modules/module1/images/run-1.png)
+![](./modules/module1/images/run-1.png)
 
 
 ### Invalid num1
 
-![run 2](./modules/module1/images/run-2.png)
+![](./modules/module1/images/run-2.png)
 
 
 ### Invalid num2
 
-![run 3](./modules/module1/images/run-3.png)
+![](./modules/module1/images/run-3.png)
 
 ### num2 = 0
 
-![run 4](./modules/module1/images/run-2.png)
+![](./modules/module1/images/run-2.png)
 
 ## Source Code
 

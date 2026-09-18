@@ -1,5 +1,5 @@
 **/__pycache__
-*.docx
+module*.docx
 */.venv
 *.venv
 modules/*/requirements.md
