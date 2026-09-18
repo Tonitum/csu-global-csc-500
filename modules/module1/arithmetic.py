@@ -51,8 +51,8 @@ def get_input(prompt: str):
     try:
         number = float(number_input)
     except ValueError as ve:
-        logger.info("Input must be valid floating point numbers")
-        logger.info(f"Recieved input {number_input}")
+        logger.warning("Input must be valid floating point numbers")
+        logger.warning(f"Recieved input {number_input}")
         raise ve
     return number
 
@@ -62,12 +62,12 @@ def main():
     Main CLI entrypoint
     """
     logger.info("Welcome to Module 1")
+    # get input
     try:
         num1 = get_input("Please input num1: ")
         num2 = get_input("Please input num2: ")
     except ValueError:
         return
-    # get input
     # calculate numbers
     logger.info("%g + %g = %g", num1, num2, add(num1, num2))
     logger.info("%g - %g = %g", num1, num2, subtract(num1, num2))
