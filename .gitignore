@@ -1,5 +1,9 @@
 **/__pycache__
 module*.docx
+~$*.docx
 */.venv
 *.venv
 modules/*/requirements.md
+*.egg-info
+**.DS_Store
+.obsidian
