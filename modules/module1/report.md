@@ -30,7 +30,7 @@
 
 ### num2 = 0
 
-![](./modules/module1/images/run-2.png)
+![](./modules/module1/images/run-4.png)
 
 ## Source Code
 
