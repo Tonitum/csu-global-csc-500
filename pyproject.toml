@@ -9,6 +9,7 @@ dependencies = []
 [project.scripts]
 module1 = "modules.module1.arithmetic:main"
 module2 = "modules.module2.shopping_cart:main"
+module3 = "modules.module3.restaurant_calculator:main"
 
 [build-system]
 requires = ["setuptools>=77"]
