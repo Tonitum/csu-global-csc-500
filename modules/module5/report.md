@@ -7,6 +7,7 @@
   - 2 books: 5 points
   - 4 books: 15 points
   - 6 books: 30 points
+  - 8 or more books: 60 points
 2. Prompt user for the number of books they purchased this month
 3. Validate the input (non-negative). If invalid, print an error and exit
 4. Use conditional statements to determine the amount of points the user has earned
