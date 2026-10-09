@@ -11,6 +11,7 @@ module1 = "modules.module1.arithmetic:main"
 module2 = "modules.module2.shopping_cart:main"
 module3 = "modules.module3.restaurant_calculator:main"
 module4 = "modules.module4.shopping_cart:main"
+module5 = "modules.module5.bookstore_points:main"
 
 [build-system]
 requires = ["setuptools>=77"]
